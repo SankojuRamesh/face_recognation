@@ -10,7 +10,7 @@ from tkinter.filedialog import askopenfilename
 Tk().withdraw()
 filename = askopenfilename()
 obama = face_recognition.load_image_file(filename)
-folder = 'obama'
+folder = 'obamas'
 obamaface_encoding = face_recognition.face_encodings(obama)[0]
 path = 'images/'
 images = []
